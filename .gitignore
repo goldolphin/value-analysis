@@ -1,0 +1,15 @@
+*.pyc
+tmp
+.env
+.vscode
+.idea
+dist
+*.mp3
+*.wav
+logs
+.DS_store
+__pycache__
+.pytest_cache/
+data_store/
+*.pid
+.venv/*

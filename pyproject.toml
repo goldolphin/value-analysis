@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "value-analysis"
+version = "0.1.0"
+description = ""
+authors = ["goldolphin <goldolphin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+matplotlib = "^3.8.3"
+pandas-datareader = "^0.10.0"
+yfinance = "^0.2.37"
+quandl = "^3.7.0"
+alpha-vantage = "^2.3.1"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[[tool.poetry.source]]
+name = "mirrors"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
